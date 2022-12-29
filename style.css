@@ -223,6 +223,9 @@ p {
 	padding: 0 50px;
 	justify-content: flex-start;
 }
+a {
+	color: #fff;
+}
 #hero h1 {
 	display: block;
 	width: fit-content;
@@ -231,6 +234,7 @@ p {
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
+	text-transform: none;
 }
 #hero h1:nth-child(1) {
 	animation-delay: 1s;
@@ -366,6 +370,7 @@ p {
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+	text-transform: none;
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
